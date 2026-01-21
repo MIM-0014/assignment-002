@@ -7,6 +7,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+ <header>
+     <nav class=" bg-[#412567] flex items-center justify-between
+           px-6 lg:px-[200px] py-6">
+
+      <!-- Logo -->
+      <h1 class="text-2xl font-bold text-white">Tech<span class="text-pink-500">Wave</span></h1>
+
+      <!-- Navigation Menu -->
+      <ul class="hidden lg:flex gap-10 text-gray-300">
+        <li><a href="#" class="hover:text-white transition">About</a></li>
+        <li><a href="#" class="hover:text-white transition">Episodes</a></li>
+        <li><a href="#" class="hover:text-white transition">Host</a></li>
+      </ul>
+
+      <!-- Subscribe Button -->
+      <button class="hidden lg:flex items-center gap-2 px-6 py-2 rounded-full bg-gradient-to-r from-pink-500 to-purple-500
+             text-white font-medium   hover:opacity-90 transition cursor-pointer">Subscribe →</button>
+
+      <!-- Hamburger Icon (Mobile) -->
+      <div class="hamburger lg:hidden w-8 h-8 cursor-pointer">
+        <img src="images/hamburger-menu.png" alt="Menu" class="w-full h-full">
+      </div>
+
+    </nav>
+ </header>   
 </body>
 </html>
